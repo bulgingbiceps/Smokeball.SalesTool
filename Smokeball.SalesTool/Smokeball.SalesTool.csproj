@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Contracts\**" />
+    <Compile Remove="Model\**" />
+    <Compile Remove="Services\**" />
+    <Compile Remove="ViewModel\**" />
+    <EmbeddedResource Remove="Contracts\**" />
+    <EmbeddedResource Remove="Model\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="ViewModel\**" />
+    <None Remove="Contracts\**" />
+    <None Remove="Model\**" />
+    <None Remove="Services\**" />
+    <None Remove="ViewModel\**" />
+    <Page Remove="Contracts\**" />
+    <Page Remove="Model\**" />
+    <Page Remove="Services\**" />
+    <Page Remove="ViewModel\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AsyncAwaitBestPractices" Version="6.0.3" />
+    <PackageReference Include="AsyncAwaitBestPractices.MVVM" Version="6.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Smokeball.SalesTool.Models\Smokeball.SalesTool.Models.csproj" />
+    <ProjectReference Include="..\Smokeball.SalesTool.Services.Contracts\Smokeball.SalesTool.Services.Contracts.csproj" />
+    <ProjectReference Include="..\Smokeball.SalesTool.Services\Smokeball.SalesTool.Services.csproj" />
+    <ProjectReference Include="..\Smokeball.SalesTool.ViewModel\Smokeball.SalesTool.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AsyncAwaitBestPractices.MVVM" Version="6.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Smokeball.SalesTool.Models\Smokeball.SalesTool.Models.csproj" />
+    <ProjectReference Include="..\Smokeball.SalesTool.Services.Contracts\Smokeball.SalesTool.Services.Contracts.csproj" />
+    <ProjectReference Include="..\Smokeball.SalesTool.Services\Smokeball.SalesTool.Services.csproj" />
+  </ItemGroup>
+
+</Project>
