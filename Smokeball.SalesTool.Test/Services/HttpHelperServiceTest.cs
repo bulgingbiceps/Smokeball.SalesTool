@@ -1,5 +1,4 @@
-﻿using Smokeball.SalesTool.Models;
-using Smokeball.SalesTool.Services;
+﻿using Smokeball.SalesTool.Services;
 using Smokeball.SalesTool.Test.Shared;
 using Xunit;
 

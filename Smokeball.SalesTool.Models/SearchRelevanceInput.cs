@@ -29,6 +29,4 @@
 
         public string SearchPattern { get; set; }
     }
-
-
 }

@@ -1,8 +1,6 @@
 ﻿using Moq;
 using Smokeball.SalesTool.Contracts;
 using Smokeball.SalesTool.Models;
-using Smokeball.SalesTool.Services;
-using Smokeball.SalesTool.Services.Resources;
 using Smokeball.SalesTool.ViewModel;
 using System.Collections.Generic;
 using Xunit;

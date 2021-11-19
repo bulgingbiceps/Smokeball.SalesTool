@@ -1,10 +1,8 @@
 ﻿using AsyncAwaitBestPractices.MVVM;
 using Smokeball.SalesTool.Contracts;
 using Smokeball.SalesTool.Models;
-using Smokeball.SalesTool.Services;
 using System;
 using System.Threading.Tasks;
-using System.Windows.Input;
 
 namespace Smokeball.SalesTool.ViewModel
 {

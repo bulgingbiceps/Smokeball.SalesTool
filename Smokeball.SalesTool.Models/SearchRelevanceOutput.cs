@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
 namespace Smokeball.SalesTool.Models
 {
@@ -32,9 +31,5 @@ namespace Smokeball.SalesTool.Models
         }
 
         public string RelevanceIndexDisplay => relevanceIndex == null ? string.Empty : string.Join(CommaSeparator, relevanceIndex);
-
-
     }
-
-
 }

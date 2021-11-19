@@ -1,12 +1,7 @@
 ﻿using Smokeball.SalesTool.Contracts;
 using Smokeball.SalesTool.Models;
 using Smokeball.SalesTool.Services.Resources;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Smokeball.SalesTool.Services
@@ -28,6 +23,5 @@ namespace Smokeball.SalesTool.Services
             List<int> indexes = _keyWordMatchService.CountMatches(searchRelevanceInput, response);
             return new SearchRelevanceOutput { Result = Constants.SuccessMessage, RelevanceIndex = indexes };
         }
-
     }
 }

@@ -17,6 +17,4 @@ namespace Smokeball.SalesTool.Services
             return response;
         }
     }
-
-
 }

@@ -3,20 +3,13 @@ using Smokeball.SalesTool.Contracts;
 using Smokeball.SalesTool.Models;
 using Smokeball.SalesTool.Services;
 using Smokeball.SalesTool.Services.Resources;
-using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Smokeball.SalesTool.Test.Services
 {
     public class SearchRelevanceServiceTest
     {
-       
-
         [Fact]
         public void TestGetSearchRelevance()
         {
@@ -38,6 +31,5 @@ namespace Smokeball.SalesTool.Test.Services
             Assert.Equal(relevanceIndex, searchRelevanceOutput.RelevanceIndex);
 
         }
-
     }
 }
