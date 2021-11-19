@@ -3,6 +3,9 @@ using Smokeball.SalesTool.Models;
 
 namespace Smokeball.SalesTool.Services
 {
+    /// <summary>
+    /// Responsible for Default parameters for Search
+    /// </summary>
     public class DefaultParameterService : IDefaultParameterService
     {
         private const string DefaultSearchUrl = @"https://www.google.com.au/search?num=100&q=conveyancing+software";
