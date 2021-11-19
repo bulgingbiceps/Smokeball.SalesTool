@@ -4,12 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Smokeball.SalesTool" xmlns:viewmodel="clr-namespace:Smokeball.SalesTool.ViewModel;assembly=Smokeball.SalesTool.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:SearchRelevanceViewModel}"
-        xmlns:converters="clr-namespace:Smokeball.SalesTool.Converters"
         mc:Ignorable="d"
         Title="Smokeball SalesTool" Height="450" Width="1000">
-    <Window.Resources>
-        <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
-    </Window.Resources>
+    
     <Grid  >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
